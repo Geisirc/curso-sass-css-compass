@@ -1,0 +1,126 @@
+REQUISITOS SASS
+
+- RUBY
+- GEM SASS
+- EDITOR DE TEXTO
+- TERMINAL (LINUX e MAC)
+- TERMINAL RUBY (WINDOWS)
+
+>> Instala o RUBY .exe no WINDOWS
+>> Abra o command prompt do RUBY
+>> Digite o comando <gem install sass>
+>> Digite o comando <sass -v>
+
+>> Instala o RUBY no LINUX
+>> Abra o terminal 
+>> Digite o comando <sudo apt-get install ruby1.9.1>
+>> Digite o comando <sudo gem install sass>
+>> Digite o comando <ruby -v>
+
+>> Instala o RUBY no MAC
+>> Abra o terminal
+>> Digite o comando <sudo gem install sass>
+>> Digite o comando <ruby -v>
+
+>> crie um arquivo aula-dois.scss no Editor de Texto
+>> Abra o command prompt do RUBY
+
+>> Vá até a pasta do arquivo
+C:\>cd Users\Gerc\Curso Sass
+
+>> Digite o comando sass para compilar o arquivo
+
+log>> C:\Users\Gerc\Curso Sass>sass aula-dois.scss
+.vermelho {
+  color: red; }
+
+>> Crie uma pasta sass e css
+>> Vá até a pasta sass 
+C:\Users\Gerc\Curso Sass>cd sass
+
+>> Digite o comando sass para compilar o arquivo
+C:\Users\Gerc\Curso Sass\sass>sass aula-tres.scss
+
+log>> .vermelho {
+  color: red; }
+
+>> Digite o command prompt do RUBY
+<sass --watch Curso Sass/sass:Curso Sass/css>
+
+>> Volte para o diretório do projeto
+C:\Users\Gerc\Curso Sass\sass>cd ..
+
+>> Digite o command prompt do RUBY para compilar as mudanças do sass para pasta css automaticamente
+C:\Users\Gerc\Curso Sass>sass --watch sass:css
+
+log>>
+>>> Sass is watching for changes. Press Ctrl-C to stop.
+      write css/aula-tres.css
+      write css/aula-tres.css.map
+>>> Change detected to: sass/aula-tres.scss
+      write css/aula-tres.css
+      write css/aula-tres.css.map
+
+>> Edite o arquivo sass
+.azul{
+	color: blue;
+}
+
+log>>
+>>> Change detected to: sass/aula-tres.scss
+      write css/aula-tres.css
+      write css/aula-tres.css.map
+
+>> Crie um novo arquivo
+
+log>>
+>>> New template detected: sass/aula-tres-exemplo.scss
+      write css/aula-tres-exemplo.css
+      write css/aula-tres-exemplo.css.map
+
+>> Edite o novo arquivo sass
+.verde{
+	color: green;
+}
+
+log>>
+>>> Change detected to: sass/aula-tres-exemplo.scss
+      write css/aula-tres-exemplo.css
+      write css/aula-tres-exemplo.css.map
+
+>> Fazer a conversão reversa de css para scss
+>> CTRL + C para parar
+
+>> Vá até a pasta css
+C:\Users\Gerc\Curso Sass>cd css
+
+>> Digite o comando <sass-covert aula-tres-exemplo.css aula-tres-exemplo.scss>
+C:\Users\Gerc\Curso Sass\css>sass-convert aula-tres.css css-para-sass.scss
+
+C:\Users\Gerc\Curso Sass\css>dir
+
+log>>
+Pasta de C:\Users\Gerc\Curso Sass\css
+
+08/04/2018  14:49    <DIR>          .
+08/04/2018  14:49    <DIR>          ..
+08/04/2018  14:43                82 aula-tres-exemplo.css
+08/04/2018  14:43               160 aula-tres-exemplo.css.map
+08/04/2018  14:39               104 aula-tres.css
+08/04/2018  14:39               175 aula-tres.css.map
+08/04/2018  14:49               106 css-para-sass.scss
+               5 arquivo(s)            627 bytes
+               2 pasta(s)   22.812.598.272 bytes disponíveis
+
+>> BAIXAR A IDE SCOUT
+<http://mhs.github.com/scout-app/>
+
+>> Descompactar e executar o App Scout.exe
+
+>> Monitorar o projeto com Scout
+
+>> Selecionar a pasta de entrada do SASS e de saída CSS
+
+>> Modificar os arquivos e Acompanhar com log do Scout
+
+>>

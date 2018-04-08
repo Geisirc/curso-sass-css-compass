@@ -1,0 +1,12 @@
+{
+	"version": 3,
+	"file": "../sass/aula-tres.css",
+	"sources": [
+		"../sass/aula-tres.scss"
+	],
+	"sourcesContent": [
+		".vermelho{\r\n\tcolor: red;\r\n}\r\n\r\n.azul{\r\n\tcolor: blue;\r\n}\r\n\r\n.amarelo{\r\n\tcolor: yellow;\r\n}\r\n\r\n"
+	],
+	"mappings": ";AAAA,AAAA,SAAS,CAAA;EACR,KAAK,EAAE,GAAI;CACX;;;AAED,AAAA,KAAK,CAAA;EACJ,KAAK,EAAE,IAAK;CACZ;;;AAED,AAAA,QAAQ,CAAA;EACP,KAAK,EAAE,MAAO;CACd",
+	"names": []
+}

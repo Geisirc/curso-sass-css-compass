@@ -1,0 +1,12 @@
+{
+	"version": 3,
+	"file": "../sass/aula-quatro.css",
+	"sources": [
+		"../sass/aula-quatro.scss"
+	],
+	"sourcesContent": [
+		".cinza{\r\n\tcolor: #ccc;\r\n}\r\n\r\n.preto{\r\n\tcolor: black;\r\n}"
+	],
+	"mappings": ";AAAA,AAAA,MAAM,CAAA;EACL,KAAK,EAAE,IAAK;CACZ;;;AAED,AAAA,MAAM,CAAA;EACL,KAAK,EAAE,KAAM;CACb",
+	"names": []
+}
