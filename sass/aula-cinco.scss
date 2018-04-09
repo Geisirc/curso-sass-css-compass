@@ -1,0 +1,39 @@
+$highlight-color: #ccc;
+$highlight-border: 1px $highlight-color solid;
+$width: 300px;
+$base-color: #ffffff;
+$background-color: #abcdef;
+$vermelho: red;
+$amarelo: yellow;
+$verde: green;
+
+.error{
+	font-color: $base-color;
+	background-color: $background-color;
+	width: $width;
+	border: 1px #f00;
+}
+
+.vermelho {
+  color: $vermelho;
+}
+
+.amarelo {
+  color: $amarelo;
+}
+
+.verde{
+  color: $verde; 
+}
+
+/*exemplo um*/
+.selected{
+	border: 1px $highlight-color solid;
+}
+
+/*exemplo dois*/
+.selected2{
+	border: $highlight-border;
+}
+
+

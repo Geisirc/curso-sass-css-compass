@@ -1,0 +1,36 @@
+/* line 10, C:/Users/Gerc/Curso Sass/curso-sass-css-compass/sass/aula-cinco.scss */
+.error {
+  font-color: #ffffff;
+  background-color: #abcdef;
+  width: 300px;
+  border: 1px #f00;
+}
+
+/* line 17, C:/Users/Gerc/Curso Sass/curso-sass-css-compass/sass/aula-cinco.scss */
+.vermelho {
+  color: red;
+}
+
+/* line 21, C:/Users/Gerc/Curso Sass/curso-sass-css-compass/sass/aula-cinco.scss */
+.amarelo {
+  color: yellow;
+}
+
+/* line 25, C:/Users/Gerc/Curso Sass/curso-sass-css-compass/sass/aula-cinco.scss */
+.verde {
+  color: green;
+}
+
+/*exemplo um*/
+/* line 30, C:/Users/Gerc/Curso Sass/curso-sass-css-compass/sass/aula-cinco.scss */
+.selected {
+  border: 1px #ccc solid;
+}
+
+/*exemplo dois*/
+/* line 35, C:/Users/Gerc/Curso Sass/curso-sass-css-compass/sass/aula-cinco.scss */
+.selected2 {
+  border: 1px #ccc solid;
+}
+
+/*# sourceMappingURL=../css/aula-cinco.map */
