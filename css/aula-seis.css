@@ -1,0 +1,33 @@
+/*css aninhado*/
+/* line 4, C:/Users/Gerc/Curso Sass/curso-sass-css-compass/sass/aula-seis.scss */
+nav {
+  /*propriedades aninhadas*/
+  border: 1px #ccc solid;
+  border-left: 0px;
+  border-right: 0px;
+}
+
+/* line 13, C:/Users/Gerc/Curso Sass/curso-sass-css-compass/sass/aula-seis.scss */
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  /*propriedades aninhadas*/
+  font-family: "Times New Roman", Verdana, sans-serif;
+  font-style: italic;
+  font-size: 14px;
+}
+
+/* line 26, C:/Users/Gerc/Curso Sass/curso-sass-css-compass/sass/aula-seis.scss */
+nav li {
+  display: inline-block;
+}
+
+/* line 30, C:/Users/Gerc/Curso Sass/curso-sass-css-compass/sass/aula-seis.scss */
+nav a {
+  display: block;
+  padding: 6px 12px;
+  text-decoration: none;
+}
+
+/*# sourceMappingURL=../css/aula-seis.map */

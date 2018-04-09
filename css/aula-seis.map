@@ -1,0 +1,12 @@
+{
+	"version": 3,
+	"file": "../sass/aula-seis.css",
+	"sources": [
+		"../sass/aula-seis.scss"
+	],
+	"sourcesContent": [
+		"/*css aninhado*/\r\n$cinza: #ccc;\r\n\r\nnav\r\n{\r\n\r\n\t/*propriedades aninhadas*/\r\n\tborder: 1px $cinza solid{\r\n\t\tleft: 0px;\r\n\t\tright: 0px;\r\n\t}\r\n\r\n\tul{\r\n\t\tmargin: 0;\r\n\t\tpadding: 0;\r\n\t\tlist-style: none;\r\n\r\n\t\t/*propriedades aninhadas*/\r\n\t\tfont: {\r\n\t\t\tfamily: \"Times New Roman\", Verdana, sans-serif;\r\n\t\t\tstyle: italic;\r\n\t\t\tsize: 14px;\r\n\t\t}\r\n\t}\r\n\r\n\tli{\r\n\t\tdisplay: inline-block;\r\n\t}\r\n\r\n\ta{\r\n\t\tdisplay: block;\r\n\t\tpadding: 6px 12px;\r\n\t\ttext-decoration: none;\r\n\t}\r\n}"
+	],
+	"mappings": "AAAA,gBAAgB;;AAGhB,AAAA,GAAG,CACH;EAEC,0BAA0B;EAC1B,MAAM,EAAE,GAAG,CANJ,IAAI,CAMQ,KAAK;EAAxB,MAAM,AAGN,CAAC,AAFA,IAAI,EAAE,GAAI;EADX,MAAM,AAGN,CAAC,AADA,KAAK,EAAE,GAAI;CAyBZ;;;AA/BD,AASC,GATE,CASF,EAAE,CAAA;EACD,MAAM,EAAE,CAAE;EACV,OAAO,EAAE,CAAE;EACX,UAAU,EAAE,IAAK;EAEjB,0BAA0B;EAC1B,IAAI,AAIJ,CAAC,AAHA,MAAM,EAAE,sCAAuC;EADhD,IAAI,AAIJ,CAAC,AAFA,KAAK,EAAE,MAAO;EAFf,IAAI,AAIJ,CAAC,AADA,IAAI,EAAE,IAAK;CAEZ;;;AApBF,AAsBC,GAtBE,CAsBF,EAAE,CAAA;EACD,OAAO,EAAE,YAAa;CACtB;;;AAxBF,AA0BC,GA1BE,CA0BF,CAAC,CAAA;EACA,OAAO,EAAE,KAAM;EACf,OAAO,EAAE,QAAS;EAClB,eAAe,EAAE,IAAK;CACtB",
+	"names": []
+}

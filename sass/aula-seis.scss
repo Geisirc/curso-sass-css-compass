@@ -1,0 +1,35 @@
+/*css aninhado*/
+$cinza: #ccc;
+
+nav
+{
+
+	/*propriedades aninhadas*/
+	border: 1px $cinza solid{
+		left: 0px;
+		right: 0px;
+	}
+
+	ul{
+		margin: 0;
+		padding: 0;
+		list-style: none;
+
+		/*propriedades aninhadas*/
+		font: {
+			family: "Times New Roman", Verdana, sans-serif;
+			style: italic;
+			size: 14px;
+		}
+	}
+
+	li{
+		display: inline-block;
+	}
+
+	a{
+		display: block;
+		padding: 6px 12px;
+		text-decoration: none;
+	}
+}
